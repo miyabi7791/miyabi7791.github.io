@@ -5,9 +5,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>htmlファイルを作成</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+    body{
+      height:2000px;
+    }
+
+  header{
+    width: 100%;
+height: 120px;
+background-color: #edcb9f;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+    position:sticky;
+    top:-30px; 
+     /* 70px -100px=30px */
+  }
+  .header-inner{
+    display:block;
+    align-items: center;
+    justify-content: space-around;
+    height:70px;
+    width:100%;
+    position:sticky;
+    top:0;
+  }    
+
+  .video-wrapper{
+    width:100%;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+
+  }
+
+  .video-wrapper>video{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+  }
+
+  .content{
+    margin-top:100px;
+    background-color:rgba(255,255,255,0.5);
+  }
+  </style>
 </head>
 <body>
-  <h1>htmlファイル</h1>
+  <header>
+  <div class="header-inner">
+    <h1>ロゴ</h1>
+    <nav class="g-nav">
+    <ul>
+    <li><a href="#">会社概要<span>Company</span></a></li>
+    <li><a href="#">事業内容<span>Srvice</span></a></li>
+    <li><a href="#">採用情報<span>Recruit</span></a></li>
+    <li><a href="#">お問い合わせ<span>Contact</span></a></li>
+    </ul>
+    </nav>
+  </div><!-- header-inner -->
+  </header>
+
+
+  <div class="video-wrapper">
+  <video src="img/01.mp4" autoplay muted loop></video>
+</div><!-- video-wrapper -->
+<div class="content">
+  <h2>見出し</h2>
+  <p>後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がした。俺は驚いて振り返った。後ろで大きな爆発音がし驚いて振り返った。後ろで大きな爆発音がした。俺は驚</p>
+  </div>
+
   
+
 </body>
 </html>
